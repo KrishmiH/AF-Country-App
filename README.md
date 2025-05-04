@@ -4,6 +4,8 @@ A responsive React application that fetches and displays country data using the 
 
 ## Project Structure
 
+----
+
 AF-Country-APP/
 ├── api/ # Backend API routes
 ├── client/ # Frontend React app
