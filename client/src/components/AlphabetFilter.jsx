@@ -22,7 +22,7 @@ export default function AlphabetFilter({ onSelectLetter }) {
   return (
     <div className="py-2">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center gap-2">
+        <div className="flex flex-wrap justify-center gap-2 p-4">
           {letters.map((letter) => (
             <button
               key={letter}
@@ -30,7 +30,7 @@ export default function AlphabetFilter({ onSelectLetter }) {
               className={`w-10 h-10 flex items-center justify-center rounded-md border transition-colors cursor-pointer
                 ${selectedLetter === letter
                   ? 'bg-blue-600 text-white border-blue-600'
-                  : 'border-gray-200 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300'
+                  : 'border-gray-300 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300'
                 }`}
             >
               {letter}

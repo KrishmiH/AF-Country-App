@@ -12,7 +12,7 @@ export default function Header({ onSearch, onSelectRegion, onSelectSubregion, se
   const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
 
   return (
-    <header className="bg-gray-800 text-white p-4 shadow-md">
+    <header className="bg-gray-800 text-white p-5 shadow-md">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center">
           <Link to="/" className="hover:opacity-80 transition-opacity">

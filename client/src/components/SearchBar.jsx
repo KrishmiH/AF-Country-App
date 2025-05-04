@@ -18,7 +18,7 @@ export default function SearchBar({ onSearch }) {
       <IconField iconPosition="left" className="w-full">
         <InputIcon className="pi pi-search" />
         <InputText
-          placeholder="Search for a country..."
+          placeholder="Search a country here..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full"

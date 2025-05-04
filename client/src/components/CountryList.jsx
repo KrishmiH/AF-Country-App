@@ -20,12 +20,12 @@ export default function CountryList({ countries }) {
   return (
     <>
       <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
           {countries.map((country) => (
             <div
               key={country.cca3}
               onClick={() => handleCountryClick(country)}
-              className="bg-white overflow-hidden transition-shadow cursor-pointer"
+              className="block bg-gray-100 rounded-lg shadow hover:shadow-md transition-shadow duration-200"
             >
               <div className="p-4">
                 <div className="flex items-center mb-3">
@@ -33,16 +33,16 @@ export default function CountryList({ countries }) {
                     <img
                       src={country.flags.png}
                       alt={`Flag of ${country.name.common}`}
-                      className="w-10 h-6 object-cover mr-2 border border-gray-200"
+                      className="w-25 h-17 object-cover mr-2 border border-gray-200"
                     />
                   )}
-                  <h3 className="font-semibold text-lg">{country.name.common}</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">{country.name.common}</h3>
                 </div>
 
-                <div className="space-y-1 text-sm">
-                  <p><span className="font-medium">Population:</span> {country.population.toLocaleString()}</p>
-                  <p><span className="font-medium">Region:</span> {country.region}</p>
-                  <p><span className="font-medium">Capital:</span> {country.capital?.[0] || 'N/A'}</p>
+                <div className="p-4">
+                  <p className="text-sm text-gray-600"><span className="font-medium">Population:</span> {country.population.toLocaleString()}</p>
+                  <p className="text-sm text-gray-600"><span className="font-medium">Region:</span> {country.region}</p>
+                  <p className="text-sm text-gray-600"><span className="font-medium">Capital:</span> {country.capital?.[0] || 'N/A'}</p>
                 </div>
               </div>
             </div>
