@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AF-Country-App
 A responsive React application that fetches and displays country data using the REST Countries API.
 
@@ -130,3 +131,6 @@ Authentication security was ensured with **bcrypt** password hashing and **JWT t
 
 The project successfully integrates a REST API with authentication, state management, and a modern frontend build tool (Vite). The solution provides a responsive, user-friendly interface while maintaining backend security best practices.
 
+=======
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mNaxAqQD)
+>>>>>>> classroom/main
