@@ -15,7 +15,7 @@ AF-Country-APP/
 ├── package.json
 
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ **Clone the repository**
 
@@ -75,16 +75,16 @@ Deployment
 Project is configured for deployment on Vercel via vercel.json.
 
 
-Contributor
+Contributor - IT22352026 - Hansara K D K U
 
 ---
 
-## ✅ **Brief Report (API + challenges)**
+##  **Brief Report (API + challenges)**
 
 ```markdown
 ## Brief Report for AF-Country-APP
 
-### 📝 Chosen API
+###  Chosen API
 
 I used the **REST Countries API (v3)** to retrieve country-related data including name, population, region, subregion, languages, currencies, and flags.
 
@@ -113,7 +113,7 @@ I integrated this API into the React frontend via `fetch` and `axios` calls insi
 
 ---
 
-### 💡 Reflections
+###  Reflections
 
 Working with third-party APIs introduced challenges around inconsistent data fields (some countries missing optional properties). I resolved these by implementing defensive coding practices (checking for null/undefined).
 
